@@ -1,0 +1,22 @@
+{
+  "name": "darwinlabstask",
+  "version": "1.0.0",
+  "description": "A simple Node Express Application which queries the google for images and stores in a database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Yashwanth",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.0",
+    "base64-img": "^1.0.3",
+    "express": "^4.16.2",
+    "images-scraper": "^2.0.11",
+    "jimp": "^0.2.28",
+    "mongoose": "^5.0.0-rc0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.3"
+  }
+}
